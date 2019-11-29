@@ -251,7 +251,9 @@ void blinkOutlineOneByOne() {
 
 
 void loop() {
-  drawHeart();
+  lc.clearDisplay(0);
+  blinkOutlineOneByOne();
+  //drawHeart();
   heart();
   blinkOutlineOneByOne();
   heartBlink();
